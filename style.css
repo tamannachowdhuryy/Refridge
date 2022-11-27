@@ -1,0 +1,777 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #FFFAF0; 
+}
+
+h2 {
+  font-family: "Josefin Sans";
+}
+
+p {
+  font-family: "Poppins";
+}
+
+.subpage-header {
+  color: darkolivegreen;
+  font-family: "Josefin Sans";
+  text-align: center;
+  padding-top:46px;
+  font-size:70px;
+  margin:20px;
+}
+
+/* Navbar */
+.navbar {
+  font-size: 20px;
+  margin-left:575px;
+  margin-right:20px;
+  top: 56px;
+  position: absolute;
+  left:0px;
+  z-index: 15;
+}
+
+.nav-container {
+  position: absolute;
+  margin-top: 0px;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+}
+
+.navbar-brand:hover{
+  color:darkolivegreen;
+}
+
+.take-action {
+  border: 2px solid white;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  transition: background-color 1s ease-out;
+}
+
+.take-action:hover {
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Subpage Navbar */
+.navbar-subpage {
+  background-color: #89aa74;
+  z-index: 0;
+  top: 0;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  border:1px solid #89aa74;
+  padding:10px;
+}
+
+/* Header */
+.header-text { 
+  color: #fff;
+  position: absolute;
+  z-index: 12;
+  top: 38%;
+  left: 15%;
+  width: 100%;
+  text-align: left;
+  font-size: 115px;
+  font-family:"Josefin Sans", sans-serif;
+}
+
+.header-statement {
+  color: #fff;
+  position: absolute;
+  z-index: 12;
+  top: 55%;
+  left: 15%;
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Josefin Sans", san-serif;
+}
+
+
+/* Image Carousel */
+.caro {
+  margin-top: -20px;
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+
+.carousel-item {
+  height: 790px;
+  object-fit: cover;
+  filter: brightness(60%);
+  opacity: 0.9;
+}
+
+/* Section 1 */
+.sec1-whole {
+  background-color: #FFFAF0;
+}
+
+.sec1 {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.sec1-image {
+  width: 700px;
+  object-fit:cover;
+  box-shadow:5px #CCD5AE;
+}
+
+/* Text and Learn more Button */
+.left-text {
+  display: block;
+  margin: auto;
+  font-family: "Poppins";
+}
+
+/* Text only */
+.text-sec1 {
+  color: darkolivegreen;
+  font-size: 60px;
+  font-family:"Josefin Sans";
+  margin-bottom: 30px;
+}
+
+/* Learn more button */
+.learn-more {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #CCD5AE;
+  color: white;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:50px;
+  padding-left:50px;
+  margin-right:25px;
+  margin-top: 25px;
+  border: transparent;
+  border-radius: 8px;
+  font-family:"Poppins",sans-serif;
+}
+
+.learn-more:hover {
+  background-color: #d9e1bc;
+  color: white;
+}
+
+/* Trisection */
+.trisection {
+  margin: 0px;
+  padding: 0px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.col {
+  width: 33%;
+}
+
+.tri-img {
+  height: 800px;
+  width:100%;
+  object-fit: cover;
+  z-index: 2;
+  filter: brightness(50%);
+  opacity: 0.9;
+}
+
+.tri-button {
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 30%;
+  z-index: 6;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:50px;
+  padding-left:50px;
+  margin-top: 25px;
+  font-size: 30px;
+  border: transparent;
+  border-radius: 8px;
+  background-color:#89aa74;
+  font-family:"Poppins",sans-serif;
+  color:white;
+  transition: background-color 0.5s ease-out;
+}
+
+.tri-button:hover {
+  background-color: transparent;
+  border: 2px solid #89aa74;
+}
+
+/* Volunteer */
+.volunteer-sec {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-left: 175px;
+}  
+
+.vol-right {
+  margin: auto;
+  background-color: #e9edc9;
+  padding: 50px;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+
+.volunteer-text {
+  text-align: center;
+  font-family: "Josefin-Sans";
+  color: #89aa74;
+}
+
+.vol-header {
+  font-size: 50px;
+  text-align: center;
+  
+  color: darkolivegreen;
+}
+
+.vol-caption {
+  font-size: 20px;
+}
+
+.volunteer-form {
+  text-align: center;
+}
+
+.vol-label{
+  font-family:"Josefin Sans";
+  font-size:25px;
+  margin: 10px;
+  color: #89aa74;
+}
+
+.vol-input {
+  padding-left: 10px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-color: #89aa74;
+}
+
+.vol-submit-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #89aa74;
+  font-family: "Poppins";
+  font-size: 25px;
+  transition: background-color 0.5s ease-out;
+  color: white;
+}
+
+.vol-submit-btn:hover {
+  background-color:  #a3c091;
+} 
+
+.vol-img {
+  object-fit:cover;
+}
+
+/* Donation */
+.donate-body {
+  background-color: #FFFAF0;
+}
+
+.donate-pg-sec {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  justify-content: center;
+}
+
+.donate-text {
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: #89aa74;
+}
+
+.donate-header {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: darkolivegreen;
+}
+
+.donate-caption {
+  font-size: 20px;
+}
+
+.donate-img {
+  filter: brightness(0.8);
+}
+
+.donate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9edc9;
+  padding: 50px;
+}
+
+.label-donate {
+  font-family:"Josefin Sans";
+  font-size:22px;
+  margin: 5px;
+  color: #89aa74;
+}
+
+.donate-input {
+  padding-left: 10px;
+  border: 1px solid #89aa74;
+  border-radius: 4px;
+}
+
+.donate-submit-btn {
+  margin-top: 20px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #89aa74;
+  font-family: "Poppins";
+  font-size: 25px;
+  transition: background-color 0.5s ease-out;
+  color: white;
+}
+
+.donate-submit-btn:hover {
+  background-color:  #a3c091;
+}
+
+/* About Us */
+.aboutus-body {
+  background-color: #FFFAF0;
+}
+
+.aboutus-header {
+  color: darkolivegreen;
+  font-family: "Josefin Sans";
+  text-align: center;
+  padding-top:46px;
+  font-size:70px;
+}
+
+/* Our Mission  */
+.quickSen {
+  font-family: "Poppins";
+  font-size: 23px;
+  text-align: center;
+  color: darkolivegreen;
+  margin-bottom:40px;
+  margin-right:50px;
+  margin-left:50px;
+  font-weight:200;
+}  
+
+
+/* pictures of us */
+.bio-img {
+  height: 350px;
+  width: 300px;
+  border: 5px solid #8ec795;
+  object-fit: cover;
+  border-radius: 150px;  
+  
+}
+/* names  */
+.bio-name {
+  font-family:"Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin-top:20px;
+  font-weight:400;
+  
+}
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bio-grade {
+   font-family:"Poppins";
+  display: flex;
+  justify-content: space-around;
+  font-weight:250;
+}
+
+/* Info Tab styling */
+
+.info-header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:100px;
+  text-align:center;
+  color: darkolivegreen;
+}
+
+.food {
+  width:350px;
+  display:flex;
+  justify-content:space-around;
+  margin-left: 5%;
+  object-fit:cover;
+}
+
+.prob-header {
+  font-family:"Josefin Sans";
+  font-weight:600;
+  color: darkolivegreen;
+}
+
+.info-prob{
+  display:flex;
+  justify-content:space-around;
+  color: darkolivegreen;
+  list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.info-p {
+  font-family:"Poppins",sans-serif;
+  font-size:20px;
+}
+
+.info-pq {
+  font-family:"Josefin Sans";
+  color:darkolivegreen;
+  margin-top: 40px;
+}
+
+
+.info-child {
+  display:flex;
+  justify-content:space-between;
+  list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.info-pan {
+  display:flex;
+  justify-content:space-between;
+  color: darkolivegreen;
+  list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  margin-top:60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.info-prob{
+display:flex;
+  justify-content:space-around;
+  list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.stat-waste{
+  font-family:"Josefin Sans";
+  text-align:center;
+  color: white;
+  margin-bottom:60px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:40px;
+  background-color:#dfbf9f;
+  padding:20px;
+  border-radius: 8px;
+}
+
+
+.Core{
+  background:#fffaf0;
+  padding-bottom:60px;
+  padding-right:50px;
+  padding-left:50px;
+}
+.insecurity-food{
+  background-color: #e9edc9;
+  padding-top:50px;
+  padding-bottom:60px;
+  padding-right:50px;
+  padding-left:50px; 
+}
+
+.myth{
+  flex: wrap;
+  justify-content:space-around;
+  list-style-type: decimal;
+  padding-inline-start: 40px;
+}
+.headerMyth{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:600;
+  font-weight:800;
+  text-align: center;
+  color: darkolivegreen;
+}
+.info-myth{
+  font-family:"Poppins",sans-serif;
+  font-size:20px;
+  text-align: center;
+  color: darkolivegreen;
+}
+
+.combin{
+  background:#fffaf0;
+  padding-top:50px;
+  padding-bottom:60px;
+  padding-right:50px;
+  padding-left:50px;
+}
+
+.info-img {
+  object-fit: cover;
+}
+
+.info-body {
+  background-color:#fffaf0;
+}
+/* fonts and background for info pag */
+}
+.info-panPk{
+  color: #D4A373;
+}
+.end-header{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:600;
+  font-weight:800;
+  color: darkolivegreen;
+}
+.info-cP{
+  font-family:"Poppins",sans-serif;
+  font-size:20px;
+  color: darkolivegreen;
+}
+.pandemic-header{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:600;
+  font-weight:800;
+}
+.info-panPk{
+  font-family:"Poppins",sans-serif;
+  font-size:20px;
+}
+.causes-header{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:28px;
+  font-weight:600;
+}
+.info-panPL{
+  font-family:"Poppins",sans-serif;
+  font-size:20px;
+}
+.stat-pan{
+  color: darkolivegreen;
+  text-align: left;
+  background-color:#CCD5AE;
+  margin:20px 35px;
+  padding:20px;
+  font-family:"Josefin Sans", sans-serif;
+  border-radius: 8px;
+}
+.quotes{
+  color: darkolivegreen;
+  text-align: left;
+  background-color:#CCD5AE;
+  margin:20px 35px;
+  padding:20px;
+  font-family:"Josefin Sans", sans-serif;
+  border-radius: 8px;
+}
+.shelves{
+  width:600px;
+  height: 400px;
+  margin-top:10px;
+  margin-right:35px;
+  margin-left:40px;
+  
+  
+}
+.stat-child {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.child {
+  width:600px;
+  height:400px;
+  margin:30px auto;
+  
+}
+.children{
+  width:300px;
+  height:300px;
+  margin-left:40px;
+  margin-right:30px;
+  
+}
+
+.pan-bg {
+  background-color:#e9edc9;
+  padding-bottom:70px;
+  padding-top:40px;
+}
+
+/* Farm-Fridge */
+.farm-fridge-body {
+  background-color: #FFFAF0;
+}
+
+.farm-fridge-sec {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-right: 75px;
+  margin-left: 125px;
+}
+
+.farm-text {
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: #89aa74;
+}
+
+.farm-header {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: darkolivegreen;
+}
+
+.farm-caption {
+  font-size: 20px;
+}
+
+.farm-fridge-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9edc9;
+  padding: 50px;
+}
+
+.label-farm {
+  font-family:"Josefin Sans";
+  font-size:22px;
+  margin: 5px;
+  color: #89aa74;
+}
+
+.farm-input {
+  padding-left: 10px;
+  border: 1px solid #89aa74;
+  border-radius: 4px;
+}
+
+.farm-submit-btn {
+  margin-top: 20px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #89aa74;
+  font-family: "Poppins";
+  font-size: 25px;
+  transition: background-color 0.5s ease-out;
+  color: white;
+}
+
+.farm-submit-btn:hover {
+  background-color:  #a3c091;
+}
+
+.farm-img {
+  object-fit:cover;
+}
+
+/* Locator */
+.locator-body {
+  background-color: #FFFAF0;
+}
+
+.locator-pg-sec {
+  background-color: #e9edc9;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 8px;
+}
+
+.locator-header {
+  text-align:center;
+  font-family:"Josefin Sans";
+  font-size:50px;
+  color:darkolivegreen;
+}
+
+.location-search {
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Logo Placement */
+.logo{
+  width:100px;
+  height:100px;
+  margin-left:20px;
+  margin-right:750px;
+  top: 20px;
+  position: absolute;
+  left:0px;
+  z-index: 15;
+}
+  
